@@ -1,8 +1,61 @@
 body {
     margin: 0;
+    background-color: rgb(27, 27, 53);
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 25px;
 }
+
+.scoreboard h3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;     
+}
+
+.title-box {
+    background-color: rgb(77, 78, 97);
+    width: 200px;
+    height: 50px; 
+    
+}
+
+
+.scorekeeper {
+    font-size: 5rem;
+    background-color: rgb(56, 55, 129);
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    color: orange;
+    border-radius: 20px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.score-btn {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+
+}
+.score-btn button {
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: solid 1px white;
+    padding: 5px 6px;
+    border-radius: 20px;
+}
+
