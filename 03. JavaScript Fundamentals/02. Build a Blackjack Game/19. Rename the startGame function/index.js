@@ -9,7 +9,9 @@ let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
 
 // Create a new function called startGame() that calls renderGame()
-
+function startGame() {
+    renderGame()
+}
 
 function renderGame() {
     cardsEl.textContent = "Cards: " + firstCard + " " + secondCard

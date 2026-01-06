@@ -8,6 +8,7 @@ let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
 
+
 function startGame() {
     cardsEl.textContent = "Cards: " + firstCard + " " + secondCard
     sumEl.textContent = "Sum: " + sum
@@ -26,9 +27,13 @@ function startGame() {
 
 function newCard() {
     console.log("Drawing a new card from the deck!")
+    
     // 1. Create a card variable, and hard code its value to a number (2-11)
     
     // 2. Add the new card to the sum variable
     
     // 3. Call startGame()
+  let card = 6
+  sum += card
+    startGame()
 }

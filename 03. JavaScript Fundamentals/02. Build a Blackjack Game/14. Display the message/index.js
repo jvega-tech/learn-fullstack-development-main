@@ -4,6 +4,7 @@ let sum = firstCard + secondCard
 let hasBlackJack = false
 let isAlive = true
 let message = ""
+let messageEl = document.getElementById("message-el")
 
 // 1. Store the message-el paragraph in a variable called messageEl
 
@@ -17,6 +18,7 @@ function startGame() {
         message = "You're out of the game! 😭"
         isAlive = false
     }
-    // 2. Display the message in the messageEl using messageEl.textContent
-    console.log(message)    
+// 2. Display the message in the messageEl using messageEl.textContent
+    messageEl.textContent = message
+        
 }
